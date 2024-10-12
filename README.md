@@ -140,7 +140,7 @@ Enjoy!!!
 ## Test it with POSTMAN
 
 Test this example with the following end-points available here:
-https://documenter.getpostman.com/view/3446841/2sAXxJiab6
+https://documenter.getpostman.com/view/3446841/2sAXxPBYxN
 
 ## Built With
 
