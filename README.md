@@ -112,7 +112,7 @@ $ source venv/bin/activate
 
 Now install all the requirements of the project:
 
-`````
+````
 $ pip install requirements.txt
 ````
 
