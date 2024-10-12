@@ -1,4 +1,4 @@
-# app/routes/bicycles_routes.py
+# app/bicycles/routes.py
 from flask import Blueprint, request, jsonify
 from app.controllers.bicycles_controller import create_bicycle, get_bicycles, get_bicycle, update_bicycle, delete_bicycle
 
