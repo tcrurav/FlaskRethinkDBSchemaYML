@@ -2,6 +2,10 @@ from flask import Flask, request, jsonify
 import yaml
 from cerberus import Validator
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 from rethinkdb import RethinkDB
 r = RethinkDB()
 
@@ -9,8 +13,8 @@ r = RethinkDB()
 r.connect('localhost', 28015).repl()
 
 # Ensure the database and table exist
-db_name = 'db_bicycles'
-table_name = 'bicycles'
+db_name = os.getenv("RETHINKDB_DB")
+table_name = os.getenv("RETHINKDB_DB")
 
 # Create DB and Table if they don't exist
 if db_name not in r.db_list().run():

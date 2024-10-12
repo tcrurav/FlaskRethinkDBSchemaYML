@@ -1,0 +1,1 @@
+https://dev.to/emma_donery/python-dotenv-keep-your-secrets-safe-4ocn
