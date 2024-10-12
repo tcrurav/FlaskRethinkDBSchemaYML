@@ -1,0 +1,10 @@
+bicycle_schema:
+  brand:
+    type: string
+    minlength: 2
+    maxlength: 50
+    required: true
+  model:
+    type: string
+    min: 2
+    required: true

@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python compiled
+*.pyc
+
+#rethink data
+rethinkdb_data/
+
+.vscode
+
+#pytest
+.pytest_cache
+__pycache__
+
+#environment
+.env
+
+#venv
+venv/
